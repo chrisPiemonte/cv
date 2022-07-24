@@ -11,7 +11,7 @@ sidebar:
     # Profile information
     name: Chris Piemonte
     tagline: Senior Data Scientist
-    pic: profile.JPG  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    pic: fromkoke2.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
     
     # Sidebar links
     email: chris.piemonte.nj@gmail.com
@@ -43,10 +43,7 @@ sidebar:
         - interest:
           item: Nature
           examples: Trekking, Biking
-        - interest:
-          item: Traveling
-          examples: To visit new places, to do new things
-          
+
         #   link:
         # - interest:
         #   item: 
@@ -56,7 +53,7 @@ sidebar:
 career-profile: 
     title: Career
     text: |
-        Computer | Data Scientist
+        Computer | Data Engineer
 
 studies: 
     - education:
@@ -90,62 +87,64 @@ experiences:
       time: 2020 - Present
       company: Prometeia, Milan
       details: |
-        Working on business assets involving Natural Language Processing 
-        techniques for process automation of areas of banks and insurance 
-        companies. Currently developing internal libraries for text analytics 
-        and graph analysis.
+        Involved in designing and developing architecture for rules-based systems and 
+        distributed ETL solutions in the anti-fraud field. Working on the development 
+        of business assets involving NLP techniques for process automation through the 
+        creation of internal libraries and deploying them in multiple environments.
+
           
     - role: Data Scientist
       time: 2019 - 2020
       company: Prometeia, Milan
       details: |
         Research and development of multiple Deep learning models to solve Object Detection 
-        and Instance Segmentation tasks to identify, provided a set of pictures 
-        from a claim, a solid evaluation of the repair costs.
+        and Instance Segmentation tasks to identify, provided a set of pictures from a claim, 
+        a solid evaluation of the repair costs. Contributed to the design of the architecture 
+        for the deployment of the Deep learning solution.
+
         
     - role: Junior Data Scientist, Internship
       time: 2018 - 2019
       company: Prometeia, Milan
       details: |
-        Use of analytical, statistical, and programming skills to collect, 
-        analyze, and interpret large data sets. Development of data-driven 
-        solutions to difficult business challenges, mainly for banks and 
-        insurance companies. Development of rule-based systems, ETL solutions 
-        for Big Data analysis, analytical internal libraries, using scala and spark.
-projects:
-    title: Projects
-    intro: "A list of relevant public projects on my GitHub profile."
-    
-    projects:
-      - project:
-        title: Url2Vec
-        link: "https://github.com/chrisPiemonte/url2vec"
-        tagline: "Bachelor's thesis about Graph Clustering with word embeddings. In this thesis a new methodology for clustering Web pages is discussed, using Random Walks between pages, together with their textual content, to learn vector representations for nodes in the web graph. Url2vec is implemented to extract clusters of pages of the same semantic type. Unlike the clustering algorithms proposed in literature, Url2Vec does not consider a website as a collection of text documents independent from each other, but tries to combine information about the content of the pages and the structure of the website."
-        technologies: Scala, Python (Jupyter, Pandas, Plotly, Scikit-learn, Gensim, Word2vec), Git
-        documentation: https://github.com/chrisPiemonte/bachelor-thesis
-      - project:
-        title: TripWalk
-        link: "https://github.com/chrisPiemonte/TripWalk"
-        tagline: "Random Walk generation on RDF graph. It produces paths inside the RDF graph (aka random walks) for each RDF resource for further analysis (see Tapas)."
-        technologies: Scala (Jena, Scala-graph)
-        documentation: https://github.com/chrisPiemonte/tapas/blob/master/doc/Embedding%20of%20Rdf%20graph's%20entities.pdf
-      - project:
-        title: GoShorty
-        link: "https://github.com/chrisPiemonte/GoShorty"
-        tagline: "Web Application | URL shortener service made with Redis - SparkJava - AngularJS. Development of a WebApp, aimed at using concepts and methodologies of NoSQL DataBases and containerization of services."
-        technologies: Java (SparkJava, Maven), Redis, AngularJS, Docker (docker-compose), Git
-      - project:
-        title: Crime Analysis
-        link: "https://github.com/chrisPiemonte/crime-analysis"
-        tagline: "Association Rule Mining from Spatial Data for Crime Analysis. The aim of this project is to examine data regarding the spatial distribution of crimes committed within a year in the city of Charlotte - NC, USA. There are data collected from about 60,000 crimes, as well as district census data and information on commercial business activities. Therefore, the goal was to apply algorithms for the discovery of Association Rules to search for associations between the available information. The Knowledge Discovery process is applied and filters are applied to select only rules with the type of crime in the consequent, as those rules showed where, at the occurrence of the conditions present in the antecedent of the rule, that specific type of crime is more likely to manifest."
-        technologies: Python (jupyter, pandas, matplotlib, pymining, apyori, shapely, scikit-learn, word2vec)
-        documentation: https://github.com/chrisPiemonte/crime-analysis/blob/master/documentation/DataMining.pdf
-      - project:
-        title: Fixture
-        link: "https://github.com/chrisPiemonte/Fixture"
-        tagline: "Web Application | Ticketing system made with PostgreSQL - Spring Boot - AngularJS. Development of a WebApp for the management of tickets and the history of a stadium, aimed at using the conceptual, logical and physical design methodologies of relational and object-relational DataBases."
-        technologies: Java (Spring Boot, Hibernate, Maven), PostgreSQL, AngularJS, Docker (docker-compose), Elastic Search, Logstash, Kibana, Git
-        documentation: https://github.com/chrisPiemonte/Fixture/blob/master/documentation/Doc.pdf
+        Joined Prometeia as a Data Engineer in the Data Science business line. Involved in 
+        using programming and analytical techniques for the extraction, transformation and 
+        analysis of large datasets on distributed architectures. Development of ETL solutions 
+        for Big Data analysis, libraries, using mainly scala, python and spark.
+# projects:
+#     title: Projects
+#     intro: "A list of relevant public projects on my GitHub profile."
+#
+#     projects:
+#       - project:
+#         title: Url2Vec
+#         link: "https://github.com/chrisPiemonte/url2vec"
+#         tagline: "Bachelor's thesis about Graph Clustering with word embeddings. In this thesis a new methodology for clustering Web pages is discussed, using Random Walks between pages, together with their textual content, to learn vector representations for nodes in the web graph. Url2vec is implemented to extract clusters of pages of the same semantic type. Unlike the clustering algorithms proposed in literature, Url2Vec does not consider a website as a collection of text documents independent from each other, but tries to combine information about the content of the pages and the structure of the website."
+#         technologies: Scala, Python (Jupyter, Pandas, Plotly, Scikit-learn, Gensim, Word2vec), Git
+#         documentation: https://github.com/chrisPiemonte/bachelor-thesis
+#       - project:
+#         title: TripWalk
+#         link: "https://github.com/chrisPiemonte/TripWalk"
+#         tagline: "Random Walk generation on RDF graph. It produces paths inside the RDF graph (aka random walks) for each RDF resource for further analysis (see Tapas)."
+#         technologies: Scala (Jena, Scala-graph)
+#         documentation: https://github.com/chrisPiemonte/tapas/blob/master/doc/Embedding%20of%20Rdf%20graph's%20entities.pdf
+#       - project:
+#         title: GoShorty
+#         link: "https://github.com/chrisPiemonte/GoShorty"
+#         tagline: "Web Application | URL shortener service made with Redis - SparkJava - AngularJS. Development of a WebApp, aimed at using concepts and methodologies of NoSQL DataBases and containerization of services."
+#         technologies: Java (SparkJava, Maven), Redis, AngularJS, Docker (docker-compose), Git
+#       - project:
+#         title: Crime Analysis
+#         link: "https://github.com/chrisPiemonte/crime-analysis"
+#         tagline: "Association Rule Mining from Spatial Data for Crime Analysis. The aim of this project is to examine data regarding the spatial distribution of crimes committed within a year in the city of Charlotte - NC, USA. There are data collected from about 60,000 crimes, as well as district census data and information on commercial business activities. Therefore, the goal was to apply algorithms for the discovery of Association Rules to search for associations between the available information. The Knowledge Discovery process is applied and filters are applied to select only rules with the type of crime in the consequent, as those rules showed where, at the occurrence of the conditions present in the antecedent of the rule, that specific type of crime is more likely to manifest."
+#         technologies: Python (jupyter, pandas, matplotlib, pymining, apyori, shapely, scikit-learn, word2vec)
+#         documentation: https://github.com/chrisPiemonte/crime-analysis/blob/master/documentation/DataMining.pdf
+#       - project:
+#         title: Fixture
+#         link: "https://github.com/chrisPiemonte/Fixture"
+#         tagline: "Web Application | Ticketing system made with PostgreSQL - Spring Boot - AngularJS. Development of a WebApp for the management of tickets and the history of a stadium, aimed at using the conceptual, logical and physical design methodologies of relational and object-relational DataBases."
+#         technologies: Java (Spring Boot, Hibernate, Maven), PostgreSQL, AngularJS, Docker (docker-compose), Elastic Search, Logstash, Kibana, Git
+#         documentation: https://github.com/chrisPiemonte/Fixture/blob/master/documentation/Doc.pdf
         
 
 # publications:
@@ -167,85 +166,85 @@ projects:
       #   conference: "Comm. ACM 4 (1961), 51–55"
 
 
-skills:
-    title: Skills &amp; Proficiency
-    skills:
-        - skill:
-          name: Java
-          level: 90%
-        - skill:
-          name: Python
-          level: 90%
-        - skill:
-          name: Machine Learning
-          level: 90%
-        - skill:
-          name: SQL
-          level: 90%
-        - skill:
-          name: Software Engineering
-          level: 85%
-        - skill:
-          name: Functional Programming
-          level: 80%
-        - skill:
-          name: Deep Learning
-          level: 80%
-        - skill:
-          name: Pandas
-          level: 80%
-        - skill:
-          name: MySQL
-          level: 80%
-        - skill:
-          name: Spacy
-          level: 80%
-        - skill:
-          name: Scikit-learn
-          level: 80%
-        - skill:
-          name: Tensorflow
-          level: 80%
-        - skill:
-          name: Backend
-          level: 80%
-        - skill:
-          name: Scala
-          level: 70%
-        - skill:
-          name: Spark
-          level: 70%
-        - skill:
-          name: Big Data
-          level: 70%
-        - skill:
-          name: Docker
-          level: 70%
-        - skill:
-          name: Linux
-          level: 70%
-        - skill:
-          name: PostgreSQL
-          level: 70%
-        - skill:
-          name: Oracle
-          level: 60%
-        - skill:
-          name: MLOps
-          level: 60%
-        - skill:
-          name: DevOps
-          level: 60%
-        - skill:
-          name: NoSQL
-          level: 60%
-        - skill:
-          name: Natural Language Processing
-          level: 60%
-        - skill:
-          name: Frontend
-          level: 50%
+# skills:
+#     title: Skills &amp; Proficiency
+#     skills:
+#         - skill:
+#           name: Java
+#           level: 90%
+#         - skill:
+#           name: Python
+#           level: 90%
+#         - skill:
+#           name: Machine Learning
+#           level: 90%
+#         - skill:
+#           name: SQL
+#           level: 90%
+#         - skill:
+#           name: Software Engineering
+#           level: 85%
+#         - skill:
+#           name: Functional Programming
+#           level: 80%
+#         - skill:
+#           name: Deep Learning
+#           level: 80%
+#         - skill:
+#           name: Pandas
+#           level: 80%
+#         - skill:
+#           name: MySQL
+#           level: 80%
+#         - skill:
+#           name: Spacy
+#           level: 80%
+#         - skill:
+#           name: Scikit-learn
+#           level: 80%
+#         - skill:
+#           name: Tensorflow
+#           level: 80%
+#         - skill:
+#           name: Backend
+#           level: 80%
+#         - skill:
+#           name: Scala
+#           level: 70%
+#         - skill:
+#           name: Spark
+#           level: 70%
+#         - skill:
+#           name: Big Data
+#           level: 70%
+#         - skill:
+#           name: Docker
+#           level: 70%
+#         - skill:
+#           name: Linux
+#           level: 70%
+#         - skill:
+#           name: PostgreSQL
+#           level: 70%
+#         - skill:
+#           name: Oracle
+#           level: 60%
+#         - skill:
+#           name: MLOps
+#           level: 60%
+#         - skill:
+#           name: DevOps
+#           level: 60%
+#         - skill:
+#           name: NoSQL
+#           level: 60%
+#         - skill:
+#           name: Natural Language Processing
+#           level: 60%
+#         - skill:
+#           name: Frontend
+#           level: 50%
 
 
 footer: 
-    text: 'With <i class="fa fa-heart"></i> from <a href="https://github.com/chrisPiemonte" target="_blank" rel="nofollow">Chris Piemonte</a>. Last updated: 2021'
+    text: 'With <i class="fa fa-heart"></i> from <a href="https://github.com/chrisPiemonte" target="_blank" rel="nofollow">Chris Piemonte</a>. Last updated: 2022'
