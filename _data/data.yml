@@ -57,33 +57,30 @@ sidebar:
 
 studies: 
     - education:
-      degree: |
-        MSc in Computer Science 
-        Knowledge Engineering and Machine Intelligence
+      degree: MSc in Computer Science # Knowledge Engineering and Machine Intelligence
       university: University of Bari "Aldo Moro"
       time: 2016 - 2021
       details: |
-        Thesis about using state of the art Deep Learning and Computer Vision models to solve Object Detection
-        and Instance Segmentation tasks for automatic damage estimation.
+        Industrial thesis in which deep learning approaches are used to identify
+        the section of the image containing the car, the identification of the 
+        visible components, and the severity of any visible damage in order to quantify 
+        repair costs. The approach uses multiple 
+        Deep Learning and Computer Vision models to solve Object Detection and Instance 
+        Segmentation tasks and business domain knowledge to aggregate the models' results 
+        in meaningful output.
 
     - education:
-      degree: |
-        BSc in Computer Science
-        Technologies for software production
+      degree: BSc in Computer Science # Technologies for software production
       university: University of Bari "Aldo Moro"
       time: 2011 - 2015
       details: |
-        Thesis about Web graph Clustering. In this thesis a new methodology 
-        for clustering Web pages is discussed, using Random Walks between pages, 
-        together with their textual content, to learn vector representations 
-        for nodes in the web graph. Url2vec is implemented to extract clusters 
-        of pages of the same semantic type. Unlike the clustering algorithms 
-        proposed in literature, Url2Vec does not consider a website as a 
-        collection of text documents independent from each other, but tries to 
-        combine information about the content of the pages and the structure 
-        of the website. The experimental results produced proved to be discreet 
-        and encouraged to follow the studies in this direction to identify new 
-        ways to improve the results achieved in terms of quality.
+        The approach proposed in this thesis aims to extract information from the 
+        graph structure of the pages of a website, using distributional semantic 
+        algorithms on random walks generated from each node, and combining this 
+        information with the textual information present in the html code in order 
+        to learn vector representations of web pages. The validation of this approach 
+        is carried out through a clustering task of the obtained vectors, producing 
+        encouraging results.
 
 experiences:
 
