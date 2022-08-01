@@ -50,22 +50,24 @@ sidebar:
         #   link:
 
 
-career-profile: 
-    title: Education
-    text: |
-        Computer | Data Engineer
+# career-profile:
+#     title: Education
+#     text: |
+#         Computer | Data Engineer
 
 studies: 
     - education:
-      degree: MSc in Computer ScienceEE
-      university: University of Bari "Aldo Moro" Curriculum Knowledge Engineering and Machine Intelligence
+      degree: |
+        MSc in Computer Science - Knowledge Engineering and Machine Intelligence
+      university: University of Bari "Aldo Moro"
       time: 2016 - 2021
       details: |
         Thesis about using state of the art Deep Learning and Computer Vision models to solve Object Detection
         and Instance Segmentation tasks for automatic damage estimation.
 
     - education:
-      degree: BSc in Computer Science
+      degree: |
+        BSc in Computer Science - Technologies for software production
       university: University of Bari "Aldo Moro"
       time: 2011 - 2015
       details: |
