@@ -10,7 +10,7 @@ sidebar:
     
     # Profile information
     name: Chris Piemonte
-    tagline: Senior Data Scientist
+    tagline: Senior Data Engineer
     pic: fromkoke2.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
     
     # Sidebar links
@@ -57,7 +57,7 @@ career-profile:
 
 studies: 
     - education:
-      degree: MSc in Computer Science
+      degree: MSc in Computer ScienceEE
       university: University of Bari "Aldo Moro" Curriculum Knowledge Engineering and Machine Intelligence
       time: 2016 - 2021
       details: |
@@ -83,7 +83,7 @@ studies:
 
 experiences:
 
-    - role: Senior Data Scientist
+    - role: Senior Data Engineer
       time: 2020 - Present
       company: Prometeia, Milan
       details: |
@@ -93,7 +93,7 @@ experiences:
         creation of internal libraries and deploying them in multiple environments.
 
           
-    - role: Data Scientist
+    - role: Data Engineer
       time: 2019 - 2020
       company: Prometeia, Milan
       details: |
@@ -103,7 +103,7 @@ experiences:
         for the deployment of the Deep learning solution.
 
         
-    - role: Junior Data Scientist, Internship
+    - role: Junior Data Engineer, Internship
       time: 2018 - 2019
       company: Prometeia, Milan
       details: |
