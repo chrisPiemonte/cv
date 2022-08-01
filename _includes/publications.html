@@ -3,12 +3,6 @@
 
   <h2 class="section-title"><i class="fa fa-file-text"></i>{{ site.data.data.publications.title }}</h2>
 
-  {% if site.data.data.publications.intro %}
-  <div class="intro">
-      <p>{{ site.data.data.publications.intro }}</p>
-  </div><!--//intro-->
-  {% endif %}
-
   {% for publication in site.data.data.publications.publications %}
     <div class="item">
       <div class="publication-title">{{ publication.title }}</div>

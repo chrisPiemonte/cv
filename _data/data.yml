@@ -49,10 +49,10 @@ sidebar:
 
 publications:
     title: Certifications
-    # intro: |
-    #   You can list your publications in this section. Lorem ipsum dolor sit
-    #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    #   bibendum fringilla a eu lectus.
+    intro: |
+      You can list your publications in this section. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+      bibendum fringilla a eu lectus.
     papers:
       - title: Functional programming in Scala Specialization
         link: "https://www.coursera.org/account/accomplishments/specialization/certificate/GLBJ9AQ55N8B"
