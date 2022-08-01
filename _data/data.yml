@@ -56,8 +56,8 @@ publications:
     papers:
       - title: Functional programming in Scala Specialization
         link: "https://www.coursera.org/account/accomplishments/specialization/certificate/GLBJ9AQ55N8B"
-        authors: Issued Apr 2020
-        conference: Coursera
+        authors: Coursera - Issued Apr 2020
+        # conference: Coursera
         logo: coursera.png
 
         #   link:
