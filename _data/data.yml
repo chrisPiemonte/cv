@@ -36,16 +36,28 @@ sidebar:
           examples: M. Chabon, P.K. Dick, ...
         - interest:
           item: Food
-          examples: Cooking, Eating
+          examples: cooking, eating
         - interest:
           item: Drink
-          examples: Beer and Whisky enthusiast
+          examples: beer and whisky enthusiast
         - interest:
           item: Nature
-          examples: Trekking, Biking
+          examples: trekking, biking
         - interest:
           item: Music
-          examples: Listening, Learning
+          examples: listening, learning
+
+publications:
+    title: Certifications
+    # intro: |
+    #   You can list your publications in this section. Lorem ipsum dolor sit
+    #   amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+    #   bibendum fringilla a eu lectus.
+    papers:
+      - title: Functional programming in Scala Specialization
+        link: "https://www.coursera.org/account/accomplishments/specialization/certificate/GLBJ9AQ55N8B"
+        authors: Issued Apr 2020
+        conference: Coursera
 
         #   link:
         # - interest:
@@ -64,9 +76,9 @@ studies:
       university: University of Bari "Aldo Moro"
       time: 2016 - 2021
       details: |
-        Industrial thesis in which deep learning approaches are used to identify
+        Industrial thesis in which deep learning approaches are used to recognize
         the section of the image containing the car, the identification of the 
-        visible components, and the severity of any visible damage in order to quantify 
+        visible car components, and the severity of any visible damage in order to quantify 
         repair costs. The approach uses multiple 
         Deep Learning and Computer Vision models to solve Object Detection and Instance 
         Segmentation tasks and business domain knowledge to aggregate the models' results 
