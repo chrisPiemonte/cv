@@ -58,7 +58,8 @@ sidebar:
 studies: 
     - education:
       degree: |
-        MSc in Computer Science - Knowledge Engineering and Machine Intelligence
+        MSc in Computer Science 
+        Knowledge Engineering and Machine Intelligence
       university: University of Bari "Aldo Moro"
       time: 2016 - 2021
       details: |
@@ -67,7 +68,8 @@ studies:
 
     - education:
       degree: |
-        BSc in Computer Science - Technologies for software production
+        BSc in Computer Science
+        Technologies for software production
       university: University of Bari "Aldo Moro"
       time: 2011 - 2015
       details: |
