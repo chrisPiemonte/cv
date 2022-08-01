@@ -33,7 +33,7 @@ sidebar:
     interests:
         - interest:
           item: Books
-          examples: Michael Chabon, Thomas Pynchon, Philip K. Dick
+          examples: M. Chabon, P.K. Dick, ...
         - interest:
           item: Food
           examples: Cooking, Eating
@@ -43,6 +43,9 @@ sidebar:
         - interest:
           item: Nature
           examples: Trekking, Biking
+        - interest:
+          item: Music
+          examples: Listening, Learning
 
         #   link:
         # - interest:
