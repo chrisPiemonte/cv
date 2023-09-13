@@ -106,9 +106,10 @@ experiences:
       time: 2023 - Present
       company: Prometeia, Milan
       details: |
-        Involved in designing and deploying cloud services and . I was responsible for deploying 
-        cloud services that powered AI applications, enabling access via REST APIs. Additionally, I 
-        helped in designing and developing serverless cloud-native applications.
+        Involved in designing and deploying cloud services and applications. 
+        I was responsible for deploying cloud services that powered AI applications, 
+        enabling access via REST APIs. Additionally, I helped in designing and developing 
+        serverless cloud-native applications.
 
     - role: Senior Machine Learning Engineer
       time: 2020 - 2023
