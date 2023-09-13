@@ -56,8 +56,6 @@ publications:
         authors: Coursera - Issued Apr 2020
         # conference: Coursera
         logo: coursera.png
-
-    papers:
       - title: MlOps: Machine Learning Data Lifecycle in Production
         link: "https://www.coursera.org/account/accomplishments/certificate/PKMA2BJUSGZ7"
         authors: Coursera - Issued Feb 2022
