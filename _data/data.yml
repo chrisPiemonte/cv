@@ -35,7 +35,7 @@ sidebar:
           item: Books
           examples: M. Chabon, P.K. Dick, ...
         - interest:
-          item: Food
+          item: Travel
           examples: cooking, eating
         - interest:
           item: Drink
@@ -43,9 +43,6 @@ sidebar:
         - interest:
           item: Nature
           examples: trekking, biking
-        - interest:
-          item: Music
-          examples: listening, learning
 
 publications:
     title: Certifications
@@ -57,6 +54,13 @@ publications:
       - title: Functional programming in Scala Specialization
         link: "https://www.coursera.org/account/accomplishments/specialization/certificate/GLBJ9AQ55N8B"
         authors: Coursera - Issued Apr 2020
+        # conference: Coursera
+        logo: coursera.png
+
+    papers:
+      - title: MlOps: Machine Learning Data Lifecycle in Production
+        link: "https://www.coursera.org/account/accomplishments/certificate/PKMA2BJUSGZ7"
+        authors: Coursera - Issued Feb 2022
         # conference: Coursera
         logo: coursera.png
 
@@ -100,17 +104,26 @@ studies:
 
 experiences:
 
-    - role: Senior Data Engineer
+    - role: Specialist Machine Learning Engineer
       time: 2020 - Present
       company: Prometeia, Milan
       details: |
+        Involved in designing and deploying cloud services and . I was responsible for deploying 
+        cloud services that powered AI applications, enabling access via REST APIs. Additionally, I 
+        helped in designing and developing serverless cloud-native applications.
+
+    - role: Senior Machine Learning Engineer
+      time: 2020 - 2023
+      company: Prometeia, Milan
+      details: |
         Involved in designing and developing architecture for rules-based systems and 
-        distributed ETL solutions in the anti-fraud field. Working on the development 
-        of business assets involving NLP techniques for process automation through the 
-        creation of internal libraries and deploying them in multiple environments.
+        distributed ETL solutions in anti-fraud and anti-money-laundering fields. Working 
+        on the development of business assets involving NLP techniques for process automation 
+        through the creation of internal libraries and REST API service and deploying them in 
+        multiple environments.
 
           
-    - role: Data Engineer
+    - role: Data Scientist
       time: 2019 - 2020
       company: Prometeia, Milan
       details: |
@@ -120,7 +133,7 @@ experiences:
         for the deployment of the Deep learning solution.
 
         
-    - role: Junior Data Engineer, Internship
+    - role: Junior Data Scienist, Internship
       time: 2018 - 2019
       company: Prometeia, Milan
       details: |
