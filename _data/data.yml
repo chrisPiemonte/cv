@@ -10,8 +10,8 @@ sidebar:
     
     # Profile information
     name: Chris Piemonte
-    tagline: Senior Data Engineer
-    pic: fromkoke2.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    tagline: Software Engineer
+    pic: chia-prof.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
     
     # Sidebar links
     email: chris.piemonte.nj@gmail.com
@@ -29,20 +29,23 @@ sidebar:
         - language:
           idiom: English
           level: Professional
+        - language:
+          idiom: Spanish
+          level: Beginner
         
     interests:
         - interest:
           item: Books
           examples: M. Chabon, P.K. Dick, ...
         - interest:
+          item: Sports
+          examples: Running, Surf
+        - interest:
           item: Travel
-          examples: cooking, eating
+          examples: Solo trips, trekking, biking
         - interest:
-          item: Drink
-          examples: beer and whisky enthusiast
-        - interest:
-          item: Nature
-          examples: trekking, biking
+          item: Computer science
+          examples: Conferences, Meetups, Online courses
 
 publications:
     title: Certifications
@@ -79,26 +82,19 @@ studies:
       university: University of Bari "Aldo Moro"
       time: 2016 - 2021
       details: |
-        Industrial thesis in which deep learning approaches are used to recognize
-        the section of the image containing the car, the identification of the 
-        visible car components, and the severity of any visible damage in order to quantify 
-        repair costs. The approach uses multiple 
-        Deep Learning and Computer Vision models to solve Object Detection and Instance 
-        Segmentation tasks and business domain knowledge to aggregate the models' results 
-        in meaningful output.
+        Developed an industrial thesis applying Deep Learning and Computer Vision to assess 
+        car damage from images. Combined object detection and instance segmentation models to 
+        identify vehicles, detect components, and assess damage severity. Integrated business 
+        rules to estimate repair costs from model outputs.
 
     - education:
       degree: BSc in Computer Science # Technologies for software production
       university: University of Bari "Aldo Moro"
       time: 2011 - 2015
       details: |
-        The approach proposed in this thesis aims to extract information from the 
-        graph structure of the pages of a website, using distributional semantic 
-        algorithms on random walks generated from each node, and combining this 
-        information with the textual information present in the html code in order 
-        to learn vector representations of web pages. The validation of this approach 
-        is carried out through a clustering task of the obtained vectors, producing 
-        encouraging results.
+        Explored semantic representation of web pages by combining graph-based random walk algorithms 
+        with textual analysis of HTML content. Learned vector embeddings of pages and evaluated the 
+        approach through unsupervised clustering with promising results.
 
 experiences:
 
@@ -106,40 +102,34 @@ experiences:
       time: 2023 - Present
       company: Prometeia, Milan
       details: |
-        Involved in designing and deploying cloud services and applications. 
-        I was responsible for deploying cloud services that powered AI applications, 
-        enabling access via REST APIs. Additionally, I helped in designing and developing 
-        serverless cloud-native applications.
+        Led the deployment of scalable cloud services powering AI applications, exposed via REST APIs. 
+        Designed and built serverless, cloud-native architectures to support internal ML tools 
+        and client-facing solutions.
 
     - role: Senior Machine Learning Engineer
       time: 2020 - 2023
       company: Prometeia, Milan
       details: |
-        Involved in designing and developing architecture for rules-based systems and 
-        distributed ETL solutions in anti-fraud and anti-money-laundering fields. Working 
-        on the development of business assets involving NLP techniques for process automation 
-        through the creation of internal libraries and REST API service and deploying them in 
-        multiple environments.
+        Designed distributed architectures for rule-based systems and high-volume ETL pipelines in
+        anti-fraud and AML domains. Developed internal libraries and NLP-based automation services, 
+        deployed across multiple environments as REST APIs.
 
           
     - role: Data Scientist
       time: 2019 - 2020
       company: Prometeia, Milan
       details: |
-        Research and development of multiple Deep learning models to solve Object Detection 
-        and Instance Segmentation tasks to identify, provided a set of pictures from a claim, 
-        a solid evaluation of the repair costs. Contributed to the design of the architecture 
-        for the deployment of the Deep learning solution.
+        Researched and trained deep learning models for object detection and instance segmentation 
+        in insurance claim processing. Contributed to the system architecture enabling production 
+        deployment and cost estimation based on image analysis.
 
-        
-    - role: Junior Data Scienist, Internship
+    - role: Junior Data Scientist, Internship
       time: 2018 - 2019
       company: Prometeia, Milan
       details: |
-        Joined Prometeia as a Data Engineer in the Data Science business line. Involved in 
-        using programming and analytical techniques for the extraction, transformation and 
-        analysis of large datasets on distributed architectures. Development of ETL solutions 
-        for Big Data analysis, libraries, using mainly scala, python and spark.
+        Built ETL pipelines and analytical tools on distributed systems using Scala, Python, and Spark. 
+        Focused on data extraction, transformation, and analysis to support large-scale financial models 
+        and internal analytics platforms.
 # projects:
 #     title: Education
 #     # intro: "A list of relevant public projects on my GitHub profile."

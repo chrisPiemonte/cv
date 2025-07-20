@@ -1,4 +1,4 @@
-<p align="center"> <img src="https://raw.githubusercontent.com/chrisPiemonte/online-cv/master/assets/images/fromkoke2.png" width="150"/></p>
+<p align="center"> <img src="https://raw.githubusercontent.com/chrisPiemonte/online-cv/master/assets/images/chia-prof.png" width="150"/></p>
 
 <h1 align=center>
   Chris Piemonte
