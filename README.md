@@ -1,7 +1,13 @@
-<p align="center"> <img src="https://raw.githubusercontent.com/chrisPiemonte/online-cv/master/assets/images/profile-circle.png" width="150"/></p>
-<h1 align="center"> Chris Piemonte </h1> <p align="center"> <b>Data Scientist</b> </p>
+<p align="center"> <img src="https://raw.githubusercontent.com/chrisPiemonte/online-cv/master/assets/images/fromkoke2.png" width="150"/></p>
 
-## Online CV
+<h1 align=center>
+  Chris Piemonte
+</h1>
+<h3 align=center>
+  Software Engineer
+</h3>
+
+### Online CV
 
 - [Resume](https://chrispiemonte.github.io/cv/)
 - [GitHub](https://github.com/chrisPiemonte)
