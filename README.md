@@ -28,7 +28,8 @@
 
 Over time, I found that what I enjoy most is not just building systems, but doing it with others: sharing ideas, learning together, and creating something useful.
 Whether it’s deploying a machine learning service or designing an architecture that scales, I try to keep things practical and meaningful.
-At the end of the day, I like working on things that make sense — with people who care.
+
+At the end of the day, I like working on things that make sense with people who care.
 
 
 ### 🤖 Skills
