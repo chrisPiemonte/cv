@@ -49,8 +49,7 @@ p {
     }
     .profile-container {
         padding: 30px;
-        //background: darken($theme-color, 10%);
-        background: rgba(0, 0, 0, 0.2);
+        background: $sidebar-top;
         text-align: center;
         color: #fff;
     }
@@ -59,6 +58,7 @@ p {
         font-weight: 900;
         margin-top: 0;
         margin-bottom: 10px;
+        color: $sidebar-accent;
     }
     .tagline {
         color: rgba(256, 256, 256, 0.6);
@@ -115,6 +115,7 @@ p {
         font-weight: 700;
         margin-top: 0;
         margin-bottom: 15px;
+        color: $sidebar-accent;
     }
     .degree {
         font-size: 14px;
@@ -145,10 +146,6 @@ p {
             color: rgba(256, 256, 256, 0.6);
         }
     }
-    .interest-desc {
-        color: rgba(256, 256, 256, 0.6);
-    }
-
     .languages-list {
         margin-bottom: 0;
         li {
@@ -168,6 +165,23 @@ p {
             }
         }
     }
+
+    .skills-list {
+        margin-bottom: 0;
+        line-height: 1.45;
+        li {
+            margin-bottom: 12px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        .skill-group {
+            font-weight: 700;
+        }
+        .skill-items {
+            color: rgba(255, 255, 255, 0.75);
+        }
+    }
 }
 
 .main-wrapper {
@@ -178,7 +192,7 @@ p {
         text-transform: uppercase;
         font-size: 20px;
         font-weight: 500;
-        color: darken($theme-color, 15%);
+        color: $section-title;
         position: relative;
         margin-top: 0;
         margin-bottom: 20px;
@@ -189,7 +203,7 @@ p {
             display: inline-block;
             color: #fff;
             @include border-radius(50%);
-            background: darken($theme-color, 15%);
+            background: $section-title;
             text-align: center;
             padding-top: 8px;
             font-size: 16px;
@@ -223,11 +237,39 @@ p {
         position: absolute;
         right: 0;
         top: 0;
-        color: $text-grey;
+        color: $date-grey;
     }
-    .company, .university {
+    .company {
         margin-bottom: 10px;
         color: $text-grey;
+    }
+    .university {
+        margin-bottom: 10px;
+        color: $section-title;
+        font-weight: 500;
+    }
+    .field {
+        margin-top: -8px;
+        margin-bottom: 10px;
+        color: $text-color-secondary;
+    }
+    .highlights {
+        margin: 0;
+        padding-left: 18px;
+        li {
+            line-height: 1.5;
+            margin-bottom: 6px;
+            &::marker {
+                color: $edu-marker;
+            }
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        strong {
+            color: $text-color;
+            font-weight: 700;
+        }
     }
 
     .project-title {

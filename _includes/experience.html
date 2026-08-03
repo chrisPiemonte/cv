@@ -22,7 +22,15 @@
 
     </div><!--//meta-->
 
-    {% if experience.details %}
+    {% if experience.highlights %}
+    <div class="details">
+      <ul class="highlights">
+        {% for highlight in experience.highlights %}
+        <li>{{ highlight | markdownify | remove: '<p>' | remove: '</p>' | strip }}</li>
+        {% endfor %}
+      </ul>
+    </div><!--//details-->
+    {% elsif experience.details %}
     <div class="details">
       <p>{{ experience.details }}</p>
     </div><!--//details-->

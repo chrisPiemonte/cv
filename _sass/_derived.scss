@@ -1,0 +1,7 @@
+/* Fallbacks for skins that only define $theme-color.
+   A skin may override any of these; otherwise the original look is preserved. */
+$sidebar-top: darken($theme-color, 12%) !default;  // profile block
+$sidebar-accent: #fff !default;                    // name + sidebar headings
+$section-title: darken($theme-color, 15%) !default;
+$edu-marker: $theme-color !default;
+$date-grey: $text-grey !default;

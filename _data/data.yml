@@ -10,7 +10,7 @@ sidebar:
     
     # Profile information
     name: Chris Piemonte
-    tagline: Software Engineer
+    tagline: Artificial Intelligence Engineer
     pic: chia-prof.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
     
     # Sidebar links
@@ -32,27 +32,35 @@ sidebar:
         - language:
           idiom: Spanish
           level: Beginner
-        
-    interests:
-        - interest:
-          item: Books
-          examples: M. Chabon, P.K. Dick, ...
-        - interest:
-          item: Sports
-          examples: Running, Surf
-        - interest:
-          item: Travel
-          examples: Solo trips, trekking, biking
-        - interest:
-          item: Computer science
-          examples: Conferences, Meetups, Online courses
+
+# Rendered in the sidebar as grouped lists (no proficiency bars).
+skills:
+    title: Skills
+    groups:
+        - group:
+          name: Languages
+          items: Python, SQL, Scala
+        - group:
+          name: Gen AI
+          items: MCP, A2A, RAG, Qdrant, Tool calling
+        - group:
+          name: Machine Learning
+          items: scikit-learn, pandas, object detection, segmentation
+        - group:
+          name: Backend
+          items: REST, FastAPI, pytest, ORM, PyDantic, SQLAlchemy
+        - group:
+          name: MLOps / DevOps
+          items: Docker, CI/CD, MLflow
+        - group:
+          name: Data
+          items: dbt, Spark, PostgreSQL, MongoDB
+        - group:
+          name: Cloud
+          items: Serverless, Cosmos DB, Azure OpenAI, AWS Bedrock
 
 publications:
     title: Certifications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
     papers:
       - title: Functional programming in Scala Specialization
         link: "https://www.coursera.org/account/accomplishments/specialization/certificate/GLBJ9AQ55N8B"
@@ -65,71 +73,86 @@ publications:
         # conference: Coursera
         logo: coursera.png
 
-        #   link:
-        # - interest:
-        #   item: 
-        #   link:
-
 
 # career-profile:
 #     title: Education
 #     text: |
 #         Computer | Data Engineer
 
-studies: 
+studies:
     - education:
-      degree: MSc in Computer Science # Knowledge Engineering and Machine Intelligence
-      university: University of Bari "Aldo Moro"
+      degree: MSc in Computer Science
+      university: Università degli Studi di Bari "Aldo Moro"
       time: 2016 - 2021
-      details: |
-        Developed an industrial thesis applying Deep Learning and Computer Vision to assess 
-        car damage from images. Combined object detection and instance segmentation models to 
-        identify vehicles, detect components, and assess damage severity. Integrated business 
-        rules to estimate repair costs from model outputs.
+      field: Knowledge Engineering and Machine Intelligence
 
     - education:
-      degree: BSc in Computer Science # Technologies for software production
-      university: University of Bari "Aldo Moro"
-      time: 2011 - 2015
-      details: |
-        Explored semantic representation of web pages by combining graph-based random walk algorithms 
-        with textual analysis of HTML content. Learned vector embeddings of pages and evaluated the 
-        approach through unsupervised clustering with promising results.
+      degree: BSc in Computer Science
+      university: Università degli Studi di Bari "Aldo Moro"
+      time: 2011 - 2016
+      field: Computer science and software production technologies
 
+# "highlights" renders as a bullet list. **bold** is supported inside each bullet.
 experiences:
 
-    - role: Specialist Machine Learning Engineer
-      time: 2023 - Present
+    - role: Specialist AI Engineer
+      time: June 2023 - Present
       company: Prometeia, Milan
-      details: |
-        Led the deployment of scalable cloud services powering AI applications, exposed via REST APIs. 
-        Designed and built serverless, cloud-native architectures to support internal ML tools 
-        and client-facing solutions.
+      highlights:
+        - "Promoted the adoption of **Model Context Protocol (MCP)**, building **FastMCP** servers
+          over internal resources and a **multi-agent** demo platform (**A2A** agents, a discovery
+          registry, an LLM orchestrator planning over discovered capabilities)"
+        - "Re-designed and built an **LLM extraction pipeline** replacing multiple chained LLM model
+          calls with deterministic pre-filtering, embedding-based page localisation with FAISS,
+          per-template structured output and the **evaluation** harness against ground truth"
+        - "Built the provider-abstraction layer and self-hosted model support (**Ollama**) for an
+          internal **RAG** platform, enabling operation entirely on-machine for data that cannot
+          leave the perimeter"
+        - "Delivered event-driven services on **Azure Durable Functions**, a document-processing
+          pipeline using Service Bus and external-event orchestration, and an AML screening service
+          with fan-out/fan-in and full audit history"
+        - "Introduced **Software Engineering** practices on a legacy product: pre-commit hooks, CI
+          checks, code review, issue tracking and mentored junior developers"
 
-    - role: Senior Machine Learning Engineer
-      time: 2020 - 2023
+    - role: Senior ML Engineer
+      time: June 2020 - June 2023
       company: Prometeia, Milan
-      details: |
-        Designed distributed architectures for rule-based systems and high-volume ETL pipelines in
-        anti-fraud and AML domains. Developed internal libraries and NLP-based automation services, 
-        deployed across multiple environments as REST APIs.
+      highlights:
+        - "Took the Deep Learning models from research artefact to production asset: **MLflow**
+          experiment tracking and model registry, with the serving application loading models
+          directly from the registry, and monitoring of live prediction confidence and distribution"
+        - "Turned a data-science proof-of-concept into a production **document-extraction service**
+          (FastAPI, OCR, models versioned in S3); diagnosed unbounded memory growth and
+          re-architected it into a queue-and-scheduled-drain design with a persisted job state
+          machine under GDPR retention constraints"
+        - "Designed and built an AML/KYC risk-scoring platform still in production today: a
+          versioned Python scoring library with YAML-driven regulatory weights, and the **FastAPI**
+          service on top, deployed on Kubernetes across three environments"
+        - "Built the cleaning and normalisation layer of an AML platform on Databricks (**dbt,
+          medallion architecture**) over billions of transactions, and an NLP platform extracting
+          business concepts from operational-loss descriptions"
 
-          
     - role: Data Scientist
-      time: 2019 - 2020
+      time: February 2019 - June 2020
       company: Prometeia, Milan
-      details: |
-        Researched and trained deep learning models for object detection and instance segmentation 
-        in insurance claim processing. Contributed to the system architecture enabling production 
-        deployment and cost estimation based on image analysis.
+      highlights:
+        - "Core contributor to a vehicle-damage assessment system that became a commercial product,
+          still sold and maintained today: from photographs, a pipeline of four **Deep Learning
+          models** detects the vehicle, classifies and segments damage and car components,
+          intersecting the masks to localise damage per part"
+        - "**Built the training dataset** from scratch (scraping, annotation schema, CVAT labelling
+          over real insurance claims) and corrected a train/serve distribution mismatch through
+          re-labelling and targeted data augmentation; **trained** and benchmarked classification, object
+          detection and segmentation **deep learning models** (DenseNet, YOLOv3, Mask R-CNN)"
 
-    - role: Junior Data Scientist, Internship
-      time: 2018 - 2019
+    - role: Junior Data Scientist
+      time: August 2018 - February 2019
       company: Prometeia, Milan
-      details: |
-        Built ETL pipelines and analytical tools on distributed systems using Scala, Python, and Spark. 
-        Focused on data extraction, transformation, and analysis to support large-scale financial models 
-        and internal analytics platforms.
+      highlights:
+        - "Built distributed **ETL pipelines** and analytical tooling in **Scala**, Python and Spark
+          for large-scale insurance processes, and containerised an **Elasticsearch / Logstash /
+          Kibana** stack on the internal on-premise environment"
+
 # projects:
 #     title: Education
 #     # intro: "A list of relevant public projects on my GitHub profile."
@@ -177,104 +200,5 @@ experiences:
 #         documentation: https://github.com/chrisPiemonte/Fixture/blob/master/documentation/Doc.pdf
         
 
-# publications:
-    # title: Publications
-    # intro: "You can list your publications in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus."
-    
-    # publications:
-      # - paper:
-      #   title: 
-      #   authors: Donald E. Knuth
-      #   conference: Addison-Wesley, 1968
-      # - paper:
-      #   title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-      #   authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-      #   conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-      # - paper:
-      #   title: A syntax directed compiler for Algol 60
-      #   authors: Edgar T. Irons
-      #   conference: "Comm. ACM 4 (1961), 51–55"
-
-
-# skills:
-#     title: Skills &amp; Proficiency
-#     skills:
-#         - skill:
-#           name: Java
-#           level: 90%
-#         - skill:
-#           name: Python
-#           level: 90%
-#         - skill:
-#           name: Machine Learning
-#           level: 90%
-#         - skill:
-#           name: SQL
-#           level: 90%
-#         - skill:
-#           name: Software Engineering
-#           level: 85%
-#         - skill:
-#           name: Functional Programming
-#           level: 80%
-#         - skill:
-#           name: Deep Learning
-#           level: 80%
-#         - skill:
-#           name: Pandas
-#           level: 80%
-#         - skill:
-#           name: MySQL
-#           level: 80%
-#         - skill:
-#           name: Spacy
-#           level: 80%
-#         - skill:
-#           name: Scikit-learn
-#           level: 80%
-#         - skill:
-#           name: Tensorflow
-#           level: 80%
-#         - skill:
-#           name: Backend
-#           level: 80%
-#         - skill:
-#           name: Scala
-#           level: 70%
-#         - skill:
-#           name: Spark
-#           level: 70%
-#         - skill:
-#           name: Big Data
-#           level: 70%
-#         - skill:
-#           name: Docker
-#           level: 70%
-#         - skill:
-#           name: Linux
-#           level: 70%
-#         - skill:
-#           name: PostgreSQL
-#           level: 70%
-#         - skill:
-#           name: Oracle
-#           level: 60%
-#         - skill:
-#           name: MLOps
-#           level: 60%
-#         - skill:
-#           name: DevOps
-#           level: 60%
-#         - skill:
-#           name: NoSQL
-#           level: 60%
-#         - skill:
-#           name: Natural Language Processing
-#           level: 60%
-#         - skill:
-#           name: Frontend
-#           level: 50%
-
-
 footer: 
-    text: 'With <i class="fa fa-heart"></i> from <a href="https://github.com/chrisPiemonte" target="_blank" rel="nofollow">Chris Piemonte</a>. Last updated: 2022'
+    text: 'With <i class="fa fa-heart"></i> from <a href="https://github.com/chrisPiemonte" target="_blank" rel="nofollow">Chris Piemonte</a>'

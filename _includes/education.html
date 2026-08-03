@@ -13,9 +13,11 @@
               </div><!--//upper-row-->
               
               <div class="university">{{ education.university }}</div>
-              <div class="degree">Thesis</div>
+              {% if education.field %}
+              <div class="field">{{ education.field }}</div>
+              {% endif %}
             </div><!--//meta-->
-            
+
             {% if education.details %}
             <div class="details">
               <p>{{ education.details }}</p>

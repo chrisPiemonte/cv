@@ -1,24 +1,16 @@
 {% if site.data.data.skills %}
-<section class="skills-section section">
+<div class="skills-container container-block">
 
-  <h2 class="section-title"><i class="fa fa-rocket"></i>{{site.data.data.skills.title}}</h2>
+  <h2 class="container-block-title">{{ site.data.data.skills.title }}</h2>
 
-  <div class="skillset">
-
-    {% for skill in site.data.data.skills.skills %}
-    <div class="item">
-
-      <h3 class="level-title">{{ skill.name }}</h3>
-
-      <div class="level-bar">
-        <div class="level-bar-inner" data-level="{{ skill.level }}">
-        </div>
-      </div><!--//level-bar-->
-
-    </div><!--//item-->
+  <ul class="list-unstyled skills-list">
+    {% for group in site.data.data.skills.groups %}
+    <li>
+      <span class="skill-group">{{ group.name }}:</span>
+      <span class="skill-items">{{ group.items }}</span>
+    </li>
     {% endfor %}
+  </ul>
 
-  </div>
-
-</section><!--//skills-section-->
+</div><!--//skills-->
 {% endif %}
