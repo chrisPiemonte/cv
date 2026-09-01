@@ -4,7 +4,7 @@
 
 sidebar:
     # Site Settings
-    title: My Resume
+    title: SwAI Engineer
     url: 'https://chrispiemonte.github.io/cv'
     about: false # set to False or comment line if you want to remove the "How to use?" in the sidebar
     
